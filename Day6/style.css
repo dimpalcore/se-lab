@@ -1,0 +1,23 @@
+*{
+    background-color: #be7373;
+    margin: 0;
+    padding: 0;
+}
+#main-box{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    /* flex-direction: row; */
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
