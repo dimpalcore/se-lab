@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color: #9e5353;
+    height: 200px;
+    width: 200px;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); */
+    gap: 10px;
+}

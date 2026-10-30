@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.box{
+
+}
+.box:nth-child(2){
+    background-color: blue;
+}
+.box:nth-child(4){
+    background-color: rgb(107, 154, 170);
+}
+.box-3{
+    background-color: blueviolet;
+    position: absolute;
+    top:200px;
+    right: 0px;
+}
+.box-1{
+    background-color: yellow;
+}
+.box-2{
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+}
+.box-4{
+    position: sticky;
+    top: 1px;
+}
+.name{
+    position: fixed;
+    background-color: red;
+    color: bisque;
+    padding: 10px;
+    top: 200px;
+}

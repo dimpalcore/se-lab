@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.card{
+    flex: 1;
+    background-color: #d59797;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+@media (max-width: 768px){
+    /* .container{
+        flex-direction: wrap;
+    } */
+    .card{
+        font-size: 18px;
+        background-color: brown;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 600px){
+    .card{
+        font-size: 14px;
+        background-color: blueviolet;
+        color: #d59797;
+
+    }
+}
+@media (min-width:768px){
+    .card{
+        color: black;
+        font-weight: 800;
+        background-color: rgb(113, 113, 145);
+
+    }
+}
